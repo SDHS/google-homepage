@@ -1,0 +1,250 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    color : rgb(44, 44, 44);
+    text-decoration : none;
+    font-size : 16px;
+    box-sizing: border-box;
+    overflow : hidden;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+
+
+/************
+* NAVIGATION
+************/
+header {
+    width : 100%;
+    margin-bottom : 130px;
+}
+
+header nav {
+    float : right;
+    margin-top : 20px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float : left;
+    padding : 0px;
+    margin-right : 20px;
+    text-align : center;
+}
+
+header nav ul li a {
+    font-size : 80%;
+    text-align : center;
+}
+
+header nav ul li:nth-child(4) {
+    display : block;
+    padding : 5px 10px;
+    background-color : #4385f7;
+    border-radius : 5%;
+    box-shadow : 0 0px 0px #4385f7; 
+    transition : box-shadow 0.2s;
+}
+
+
+header nav ul li:nth-child(1),
+header nav ul li:nth-child(2)
+{
+    line-height : 30px;
+}
+
+header nav ul li:nth-child(3) a img {
+    padding-top : 0px;
+    width : 30px;
+}
+
+
+header nav ul li:nth-child(4) a {
+    color : white;
+    font-weight : bold;
+}
+
+
+
+
+header nav ul li:nth-child(1):hover,
+header nav ul li:nth-child(2):hover {
+    text-decoration : underline;
+}
+
+header nav ul li:nth-child(4):hover{
+    box-shadow : 0px 1px 1px #4385f7;
+}
+
+
+
+/***************
+* GOOGLE LOGO
+**************/
+
+.logo-and-search-section {
+    clear : both;
+}
+
+.logo {
+    width : 100%;
+    margin : 0 40%;
+}
+
+.logo img {
+    width : 20%;
+}
+
+
+/****************
+* SEARCH BAR
+****************/
+
+.search {
+    margin-top : 20px;
+    margin-bottom : 30px;
+}
+
+.search .search-bar {
+    margin : 0 30%;
+    width : 40%;
+    border-radius : 30px;
+    padding : 10px;
+    outline : none;
+    box-shadow : none;
+    transition : box-shadow 0.2s;
+}
+
+.search .search-bar:hover,
+.search .search-bar:focus{
+    box-shadow: 0px 1px 1px #888;
+}
+
+
+/****************
+* SEARCH BUTTONS
+****************/
+
+.search-buttons {
+    margin : 0px 40%;
+}
+
+.search-buttons * {
+    font-size : 95%;
+}
+
+.search-buttons .search-button {
+    margin-right : 15px;
+    border-radius : 4px;
+    padding : 5px;
+    border : 1px solid transparent;
+    transition : border 0.2s;
+    background-color : #f2f2f2;
+}
+
+.search-buttons .feeling-lucky-button
+{
+    border-radius : 4px;
+    padding : 5px;
+    border : 1px solid transparent;
+    transition : border 0.2s;
+    background-color: #f2f2f2;
+}
+
+
+.search-buttons .search-button:hover,
+.search-buttons .feeling-lucky-button:hover {
+    border : 1px solid #888;
+    background-color : #fdfdfd;
+}
+
+
+
+/******************
+* LANGUAGES OFFERED
+******************/
+
+
+.languages-offered {
+    margin : 0 41%;
+    margin-top : 30px;
+}
+
+.languages-offered p {
+    font-size : 80%;
+}
+
+.languages-offered a {
+    font-size : 90%;
+    color: #1a14bd;
+}
+
+
+.languages-offered a:hover{
+    text-decoration : underline;
+}
+
+
+/************
+* FOOTER
+************/
+
+
+footer {
+    margin-top : 75px;
+    background-color : #f2f2f2;
+}
+
+footer * {
+    font-size : 93%;
+}
+
+footer .country {
+    border : 1px solid #e4e4e4;
+    padding : 10px;
+    padding-left : 35px;
+}
+
+
+footer nav {
+    padding : 15px;
+}
+
+footer .nav-left {
+    float : left;
+    padding-left : 5px;
+    width : 50%;
+}
+
+footer .nav-left ul li {
+    float : left;
+    margin-left : 30px;
+} 
+
+
+
+footer .nav-right {
+    float : right;
+    width : 50%;
+}
+
+
+footer .nav-right ul li {
+    float : right;
+    margin-left : 30px;
+}
+
+footer .nav-right ul li:first-child {
+    margin-right : 30px;
+}
+
+footer .nav-left ul li a:hover,
+footer .nav-right ul li a:hover {
+    text-decoration: underline;
+}
+
+
