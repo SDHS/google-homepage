@@ -113,15 +113,16 @@ header nav ul li:nth-child(4):hover{
     margin : 0 30%;
     width : 40%;
     border-radius : 30px;
+    border : 0.5px solid #000;
+    margin-bottom : 4px;
     padding : 10px;
-    outline : none;
     box-shadow : none;
     transition : box-shadow 0.2s;
 }
 
 .search .search-bar:hover,
 .search .search-bar:focus{
-    box-shadow: 0px 1px 1px #888;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #888;
 }
 
 
